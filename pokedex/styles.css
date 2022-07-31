@@ -1,0 +1,105 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container-nav{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 130px;
+    background-color: white;
+
+}
+.nav{
+    margin: 5px;
+    padding: 40px;
+}
+.inputDiv{
+    text-align: right;
+}
+.input{
+    border: none;
+    border-bottom: solid;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+
+}
+.button{
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+}
+.allCardsPokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 98%;
+}
+.pokemonCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(231, 168, 149);
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin: 5px;
+}
+
+.pokemonID{
+    font-size: 30px;
+    text-align: right;
+    margin-right: 20px;
+    color:white;
+
+}
+
+.pokemonImgDiv{
+    border: solid;
+    border-radius: 40%;
+    color: white;
+    background-color: antiquewhite;
+}
+
+.img{
+    width: 180px;
+    height: 180px;
+}
+
+.pokemonName{
+    font-size: 25px;
+}
+
+
+.pokemonDatosDiv{
+    color: white
+}

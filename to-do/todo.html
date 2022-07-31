@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Pokedex de Joanne Zamorano</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+    <script src="todo.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-nav">
+            <div class="nav"><a href="#home">Portafolio</a></div>
+            <div class="nav"><a href="/./pokedex/index.html">Pokemons</a></div>
+            <div class="nav"><a href="todo.html">To do</a></div>
+            <div class="nav"><a href="#home">página aun no disponible</a></div>
+            
+        </div>
+        <h1>To do List</h1>
+    </div>
+
+<!-- to-do-->
+
+    <div class="list roundBorder">
+        <form onsubmit="addNewTask(event)">
+            <input type="text" name="taskText" autocomplete="off" placeholder="Nueva tarea" class="roundBorder">
+            <button type="submit" class="addTaskButtn">+</button>
+            <button type="button" class="orderButton roundBorder" onclick="renderOrderedTasks()">Ordenar</button>
+        </form>
+        <div id="tasksContainer"></div>
+    </div>
+</body>
+
+</html>
